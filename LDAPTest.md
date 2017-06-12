@@ -1,7 +1,6 @@
-Java Keystore LDAPS Test
-====================
+# Java Keystore LDAPS Test
 
-##Build
+## Build
 To compile and then use, execute:
 
 ```
@@ -12,7 +11,7 @@ java LDAPTest
 ## Configure
 See LDAPTest.properties
 
-##Sample output
+## Sample output
 The log below demonstrates a sample of the program output configured to hit 5 ldap urls.
 
 ```
