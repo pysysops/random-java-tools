@@ -1,2 +1,2 @@
-# java-monitoring
-A few Java monitoring scripts
+# random-java-tools
+A few insanely useful Java utilities
