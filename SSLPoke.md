@@ -22,7 +22,7 @@ Add: `-Djavax.net.debug=all` to java options
 
 # Example
 ```
-$ java SSLPoke gerrit.cdlis.co.uk 443
+$ java -Djavax.net.debug=all SSLPoke gerrit.cdlis.co.uk 443
 javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
         at sun.security.ssl.Alerts.getSSLException(Unknown Source)
         at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
